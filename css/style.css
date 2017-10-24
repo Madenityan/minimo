@@ -1,0 +1,125 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    outline-style: none
+}
+
+ul {
+    padding:0
+}
+/*RESET END*/
+
+.body {
+    background: #ffffff;
+}
+.container {
+    margin: 0 auto;
+    width: 1065px;
+}
+/*HEADER*/
+.logo-header {
+    margin-top: 40px;
+    float:left;
+}
+.menu {
+    float: right;
+    margin-top: 45px;
+}
+
+.list-menu li {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.list-menu a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear:both;
+}
+.clearfix {
+    padding-bottom: 70px;
+}
+/*END HEADER*/
+
+/*ARTICLE -1*/
+.main-image {
+    width: 1065px;
+    padding-bottom: 100px;
+}
+@font-face {
+     font-family: "Ubuntu Light";
+     src: url(../fonts/Ubuntu-L.ttf);
+}
+.category-link {
+    display: block;
+    font-family: "Ubuntu Light";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.title-article {
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+.text-article {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+/*END ARICLE-1*/
