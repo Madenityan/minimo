@@ -56,16 +56,19 @@ ul {
 }
 .container {
     margin: 0 auto;
-    width: 1065px;
+    width: 905px;
+    padding: 0 80px;
 }
 /*HEADER*/
 .logo-header {
     margin-top: 40px;
     float:left;
+    margin-left: -80px;
 }
+
 .menu {
     float: right;
-    margin-top: 45px;
+    margin: 45px -78px;
 }
 
 .list-menu li {
@@ -95,6 +98,7 @@ ul {
 .main-image {
     width: 1065px;
     padding-bottom: 100px;
+    margin: 0 -80px;
 }
 @font-face {
      font-family: "Ubuntu Light";
@@ -107,19 +111,86 @@ ul {
     text-transform: uppercase;
     font-size: 15px;
     padding-bottom: 30px;
+    color:#b4ad9e;
 }
 .title-article {
     font-family:'Playfair Display', serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 35px;
+    color: #626262;
 }
 .text-article {
+    font-family:'Playfair Display', serif;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 25px;
     padding-bottom: 50px;
+    color: #626262;
 }
 
-
-
 /*END ARICLE-1*/
+.wrapper article {
+    width: 420px;
+    float: left;
+}
+
+.list-image-article {
+    padding-bottom: 35px;
+}
+
+.wrapper {
+    padding-top: 140px;
+    padding-bottom: 125px;
+}
+
+.wrapper article:nth-child(odd) {
+    padding-right: 60px;
+}
+
+.wrapper-form {
+    background-color: #f0f0f0;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.wrapper-form h2 {
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.wrapper-form input {
+    border: none;
+    width: 365px;
+    height: 30px;
+    background-color: transparent; 
+}
+
+.wrapper-form input:focus{
+    border: none;
+    outline: none;
+}
+
+::-webkit-input-placeholder { 
+    font-family: 'Playfair Display', serif; 
+    color: #626262;
+    font-size: 15px; 
+}
+
+.wrapper-form button {
+    background: url('../image/submit.png'); 
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    height: 18px;
+    width: 33px; 
+}
+
+.form {
+    width: 405px;
+    border-bottom: 1px solid #000000; 
+    margin: 0 auto;
+}
