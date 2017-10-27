@@ -169,7 +169,7 @@ ul {
     border: none;
     width: 365px;
     height: 30px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .wrapper-form input:focus{
@@ -177,24 +177,24 @@ ul {
     outline: none;
 }
 
-::-webkit-input-placeholder { 
-    font-family: 'Playfair Display', serif; 
+::-webkit-input-placeholder {
+    font-family: 'Playfair Display', serif;
     color: #626262;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 .wrapper-form button {
-    background: url('../image/submit.png'); 
+    background: url('../image/submit.png');
     padding: 0px;
     border: none;
     cursor: pointer;
     height: 18px;
-    width: 33px; 
+    width: 33px;
 }
 
 .form {
     width: 405px;
-    border-bottom: 1px solid #000000; 
+    border-bottom: 1px solid #000000;
     margin: 0 auto;
 }
 
@@ -260,7 +260,7 @@ ul {
     background: url('../image/twitter.png') center;
 }
 
-.instagram-icon { 
+.instagram-icon {
     background: url('../image/instagram.png') center;
  }
 
