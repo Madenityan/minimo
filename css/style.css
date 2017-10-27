@@ -54,12 +54,13 @@ ul {
 .body {
     background: #ffffff;
 }
+
 .container {
     margin: 0 auto;
     width: 905px;
     padding: 0 80px;
 }
-/*HEADER*/
+
 .logo-header {
     margin-top: 40px;
     float:left;
@@ -89,21 +90,22 @@ ul {
     display: table;
     clear:both;
 }
-.clearfix {
+
+.header {
     padding-bottom: 70px;
 }
-/*END HEADER*/
 
-/*ARTICLE -1*/
 .main-image {
     width: 1065px;
     padding-bottom: 100px;
     margin: 0 -80px;
 }
+
 @font-face {
      font-family: "Ubuntu Light";
      src: url(../fonts/Ubuntu-L.ttf);
 }
+
 .category-link {
     display: block;
     font-family: "Ubuntu Light";
@@ -113,6 +115,7 @@ ul {
     padding-bottom: 30px;
     color:#b4ad9e;
 }
+
 .title-article {
     font-family:'Playfair Display', serif;
     font-weight: bold;
@@ -120,6 +123,7 @@ ul {
     padding-bottom: 35px;
     color: #626262;
 }
+
 .text-article {
     font-family:'Playfair Display', serif;
     font-size: 15px;
@@ -128,10 +132,10 @@ ul {
     color: #626262;
 }
 
-/*END ARICLE-1*/
 .wrapper article {
     width: 420px;
     float: left;
+    margin-top: 130px;
 }
 
 .list-image-article {
@@ -139,7 +143,6 @@ ul {
 }
 
 .wrapper {
-    padding-top: 140px;
     padding-bottom: 125px;
 }
 
@@ -150,7 +153,7 @@ ul {
 .wrapper-form {
     background-color: #f0f0f0;
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
 }
 
 .wrapper-form h2 {
@@ -194,3 +197,73 @@ ul {
     border-bottom: 1px solid #000000; 
     margin: 0 auto;
 }
+
+.load-more-button {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    padding: 20px 35px;
+    background: transparent;
+    border: 1px solid #626262;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.footer a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.footer-text li {
+    display: inline-block;
+    padding-right: 20px;
+    float: left;
+}
+
+.footer-text {
+    float: left;
+}
+
+.social-list {
+    float: right;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social a {
+    display: block;
+    width: 17px;
+    height: 15px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+
+.follow {
+    font-family: 'Playfair Display', serif;
+}
+
+.facebook-icon {
+    background: url('../image/facebook.png') center;
+}
+
+.twitter-icon {
+    background: url('../image/twitter.png') center;
+}
+
+.instagram-icon { 
+    background: url('../image/instagram.png') center;
+ }
+
+ .social li {
+    display: inline-block;
+ }
